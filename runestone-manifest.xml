@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <runestone-services version="7.9.18"/>
+  <default-language>python</default-language>
+  <library-metadata publisher="pretext">
+    <title>Parsons Problems Research Study</title>
+    <subtitle>Programming Struggle Detection Survey</subtitle>
+    <document-id edition=""/>
+    <shelf>Python</shelf>
+    <blurb>
+        This interactive survey is designed to study how students approach and solve Parsons Problems, a type of programming exercise where code blocks must be arranged in the correct order. The study consists of a background questionnaire, practice problems, test problems, and a feedback survey.
+    </blurb>
+  </library-metadata>
+  <latex-macros>
+
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+</latex-macros>
+  <webwork-version major="" minor=""/>
+  <chapter>
+    <id>parsons-survey</id>
+    <title>Parsons Problems Research Study</title>
+    <number/>
+    <division>article</division>
+    <subchapter>
+      <id>sec-intro</id>
+      <title>Student Quick Guide</title>
+      <number>1</number>
+      <division>section</division>
+    </subchapter>
+    <subchapter>
+      <id>sec-questionnaire</id>
+      <title>Pre-Study Questionnaire</title>
+      <number>2</number>
+      <division>section</division>
+      <question>
+        <label>Question 2.1.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone shortanswer_section">
+              <div data-component="shortanswer" data-question_label="" class="journal" data-mathjax="" id="__student_id">
+                <div class="para" id="student_id-1-1">Student ID:<div class="autopermalink" data-description="Paragraph"><a href="#student_id-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.1.2 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone shortanswer_section">
+              <div data-component="shortanswer" data-question_label="" class="journal" data-mathjax="" id="__school_name">
+                <div class="para" id="school_name-1-1">School Name:<div class="autopermalink" data-description="Paragraph"><a href="#school_name-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.1.3 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone shortanswer_section">
+              <div data-component="shortanswer" data-question_label="" class="journal" data-mathjax="" id="__class_grade">
+                <div class="para" id="class_grade-1-1">Class/Grade:<div class="autopermalink" data-description="Paragraph"><a href="#class_grade-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.1.4 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone shortanswer_section">
+              <div data-component="shortanswer" data-question_label="" class="journal" data-mathjax="" id="__age">
+                <div class="para" id="age-1-1">Age:<div class="autopermalink" data-description="Paragraph"><a href="#age-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.1.5 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="gender-1-1">Gender:<div class="autopermalink" data-description="Paragraph"><a href="#gender-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__gender" data-multipleanswers="false">
+                <li data-component="answer" id="__gender_opt_a">
+                  <div class="para" id="gender-2-1-1-1">Male<div class="autopermalink" data-description="Paragraph"><a href="#gender-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__gender_opt_a"/>
+                <li data-component="answer" id="__gender_opt_b">
+                  <div class="para" id="gender-2-2-1-1">Female<div class="autopermalink" data-description="Paragraph"><a href="#gender-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__gender_opt_b"/>
+                <li data-component="answer" id="__gender_opt_c">
+                  <div class="para" id="gender-2-3-1-1">Other<div class="autopermalink" data-description="Paragraph"><a href="#gender-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__gender_opt_c"/>
+                <li data-component="answer" id="__gender_opt_d">
+                  <div class="para" id="gender-2-4-1-1">Prefer not to say<div class="autopermalink" data-description="Paragraph"><a href="#gender-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__gender_opt_d"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.2.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="efficacy_1-1-1">Generally I have felt secure about attempting computer programming problems.<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__efficacy_1" data-multipleanswers="false">
+                <li data-component="answer" id="__efficacy_1_opt_a">
+                  <div class="para" id="efficacy_1-2-1-1-1">Strongly disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_1-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_1_opt_a"/>
+                <li data-component="answer" id="__efficacy_1_opt_b">
+                  <div class="para" id="efficacy_1-2-2-1-1">Disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_1-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_1_opt_b"/>
+                <li data-component="answer" id="__efficacy_1_opt_c">
+                  <div class="para" id="efficacy_1-2-3-1-1">Neither agree nor disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_1-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_1_opt_c"/>
+                <li data-component="answer" id="__efficacy_1_opt_d">
+                  <div class="para" id="efficacy_1-2-4-1-1">Agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_1-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_1_opt_d"/>
+                <li data-component="answer" id="__efficacy_1_opt_e">
+                  <div class="para" id="efficacy_1-2-5-1-1">Strongly agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_1-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_1_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.2.2 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="efficacy_2-1-1">I am sure I could do advanced work in computer science.<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__efficacy_2" data-multipleanswers="false">
+                <li data-component="answer" id="__efficacy_2_opt_a">
+                  <div class="para" id="efficacy_2-2-1-1-1">Strongly disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_2_opt_a"/>
+                <li data-component="answer" id="__efficacy_2_opt_b">
+                  <div class="para" id="efficacy_2-2-2-1-1">Disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_2-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_2_opt_b"/>
+                <li data-component="answer" id="__efficacy_2_opt_c">
+                  <div class="para" id="efficacy_2-2-3-1-1">Neither agree nor disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_2-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_2_opt_c"/>
+                <li data-component="answer" id="__efficacy_2_opt_d">
+                  <div class="para" id="efficacy_2-2-4-1-1">Agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_2-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_2_opt_d"/>
+                <li data-component="answer" id="__efficacy_2_opt_e">
+                  <div class="para" id="efficacy_2-2-5-1-1">Strongly agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_2-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_2_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.2.3 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="efficacy_3-1-1">I am sure that I can learn programming.<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__efficacy_3" data-multipleanswers="false">
+                <li data-component="answer" id="__efficacy_3_opt_a">
+                  <div class="para" id="efficacy_3-2-1-1-1">Strongly disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_3-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_3_opt_a"/>
+                <li data-component="answer" id="__efficacy_3_opt_b">
+                  <div class="para" id="efficacy_3-2-2-1-1">Disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_3-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_3_opt_b"/>
+                <li data-component="answer" id="__efficacy_3_opt_c">
+                  <div class="para" id="efficacy_3-2-3-1-1">Neither agree nor disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_3-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_3_opt_c"/>
+                <li data-component="answer" id="__efficacy_3_opt_d">
+                  <div class="para" id="efficacy_3-2-4-1-1">Agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_3-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_3_opt_d"/>
+                <li data-component="answer" id="__efficacy_3_opt_e">
+                  <div class="para" id="efficacy_3-2-5-1-1">Strongly agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_3-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_3_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.2.4 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="efficacy_4-1-1">I think I could handle more difficult programming problems.<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__efficacy_4" data-multipleanswers="false">
+                <li data-component="answer" id="__efficacy_4_opt_a">
+                  <div class="para" id="efficacy_4-2-1-1-1">Strongly disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_4-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_4_opt_a"/>
+                <li data-component="answer" id="__efficacy_4_opt_b">
+                  <div class="para" id="efficacy_4-2-2-1-1">Disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_4-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_4_opt_b"/>
+                <li data-component="answer" id="__efficacy_4_opt_c">
+                  <div class="para" id="efficacy_4-2-3-1-1">Neither agree nor disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_4-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_4_opt_c"/>
+                <li data-component="answer" id="__efficacy_4_opt_d">
+                  <div class="para" id="efficacy_4-2-4-1-1">Agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_4-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_4_opt_d"/>
+                <li data-component="answer" id="__efficacy_4_opt_e">
+                  <div class="para" id="efficacy_4-2-5-1-1">Strongly agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_4-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_4_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.2.5 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="efficacy_5-1-1">I can get good grades in computer science.<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__efficacy_5" data-multipleanswers="false">
+                <li data-component="answer" id="__efficacy_5_opt_a">
+                  <div class="para" id="efficacy_5-2-1-1-1">Strongly disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_5-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_5_opt_a"/>
+                <li data-component="answer" id="__efficacy_5_opt_b">
+                  <div class="para" id="efficacy_5-2-2-1-1">Disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_5-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_5_opt_b"/>
+                <li data-component="answer" id="__efficacy_5_opt_c">
+                  <div class="para" id="efficacy_5-2-3-1-1">Neither agree nor disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_5-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_5_opt_c"/>
+                <li data-component="answer" id="__efficacy_5_opt_d">
+                  <div class="para" id="efficacy_5-2-4-1-1">Agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_5-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_5_opt_d"/>
+                <li data-component="answer" id="__efficacy_5_opt_e">
+                  <div class="para" id="efficacy_5-2-5-1-1">Strongly agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_5-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_5_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.2.6 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="efficacy_6-1-1">I have a lot of self-confidence when it comes to programming.<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__efficacy_6" data-multipleanswers="false">
+                <li data-component="answer" id="__efficacy_6_opt_a">
+                  <div class="para" id="efficacy_6-2-1-1-1">Strongly disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_6-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_6_opt_a"/>
+                <li data-component="answer" id="__efficacy_6_opt_b">
+                  <div class="para" id="efficacy_6-2-2-1-1">Disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_6-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_6_opt_b"/>
+                <li data-component="answer" id="__efficacy_6_opt_c">
+                  <div class="para" id="efficacy_6-2-3-1-1">Neither agree nor disagree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_6-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_6_opt_c"/>
+                <li data-component="answer" id="__efficacy_6_opt_d">
+                  <div class="para" id="efficacy_6-2-4-1-1">Agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_6-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_6_opt_d"/>
+                <li data-component="answer" id="__efficacy_6_opt_e">
+                  <div class="para" id="efficacy_6-2-5-1-1">Strongly agree<div class="autopermalink" data-description="Paragraph"><a href="#efficacy_6-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__efficacy_6_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.2.7 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="attention_check-1-1">To show you’re reading carefully, please select ’Agree’ for this question<div class="autopermalink" data-description="Paragraph"><a href="#attention_check-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__attention_check" data-multipleanswers="false">
+                <li data-component="answer" id="__attention_check_opt_a">
+                  <div class="para" id="attention_check-2-1-1-1">Strongly disagree<div class="autopermalink" data-description="Paragraph"><a href="#attention_check-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__attention_check_opt_a"/>
+                <li data-component="answer" id="__attention_check_opt_b">
+                  <div class="para" id="attention_check-2-2-1-1">Disagree<div class="autopermalink" data-description="Paragraph"><a href="#attention_check-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__attention_check_opt_b"/>
+                <li data-component="answer" id="__attention_check_opt_c">
+                  <div class="para" id="attention_check-2-3-1-1">Neither agree nor disagree<div class="autopermalink" data-description="Paragraph"><a href="#attention_check-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__attention_check_opt_c"/>
+                <li data-component="answer" id="__attention_check_opt_d" data-correct="">
+                  <div class="para" id="attention_check-2-4-1-1">Agree<div class="autopermalink" data-description="Paragraph"><a href="#attention_check-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__attention_check_opt_d"/>
+                <li data-component="answer" id="__attention_check_opt_e">
+                  <div class="para" id="attention_check-2-5-1-1">Strongly agree<div class="autopermalink" data-description="Paragraph"><a href="#attention_check-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__attention_check_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.3.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="concept_loops-1-1">Loops/Iteration (e.g., for loops, while loops)<div class="autopermalink" data-description="Paragraph"><a href="#concept_loops-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__concept_loops" data-multipleanswers="false">
+                <li data-component="answer" id="__concept_loops_opt_a">
+                  <div class="para" id="concept_loops-2-1-1-1">I am unfamiliar with this concept<div class="autopermalink" data-description="Paragraph"><a href="#concept_loops-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_loops_opt_a"/>
+                <li data-component="answer" id="__concept_loops_opt_b">
+                  <div class="para" id="concept_loops-2-2-1-1">I know what it means, but have not used it in a program<div class="autopermalink" data-description="Paragraph"><a href="#concept_loops-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_loops_opt_b"/>
+                <li data-component="answer" id="__concept_loops_opt_c">
+                  <div class="para" id="concept_loops-2-3-1-1">I have used this concept, but am not confident about my ability<div class="autopermalink" data-description="Paragraph"><a href="#concept_loops-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_loops_opt_c"/>
+                <li data-component="answer" id="__concept_loops_opt_d">
+                  <div class="para" id="concept_loops-2-4-1-1">I am confident in my ability to use this in simple programs<div class="autopermalink" data-description="Paragraph"><a href="#concept_loops-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_loops_opt_d"/>
+                <li data-component="answer" id="__concept_loops_opt_e">
+                  <div class="para" id="concept_loops-2-5-1-1">I am confident in my ability to use this in complex programs<div class="autopermalink" data-description="Paragraph"><a href="#concept_loops-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_loops_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.3.2 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="concept_conditionals-1-1">Conditionals/Selection Statements (e.g., if, elif, else)<div class="autopermalink" data-description="Paragraph"><a href="#concept_conditionals-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__concept_conditionals" data-multipleanswers="false">
+                <li data-component="answer" id="__concept_conditionals_opt_a">
+                  <div class="para" id="concept_conditionals-2-1-1-1">I am unfamiliar with this concept<div class="autopermalink" data-description="Paragraph"><a href="#concept_conditionals-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_conditionals_opt_a"/>
+                <li data-component="answer" id="__concept_conditionals_opt_b">
+                  <div class="para" id="concept_conditionals-2-2-1-1">I know what it means, but have not used it in a program<div class="autopermalink" data-description="Paragraph"><a href="#concept_conditionals-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_conditionals_opt_b"/>
+                <li data-component="answer" id="__concept_conditionals_opt_c">
+                  <div class="para" id="concept_conditionals-2-3-1-1">I have used this concept, but am not confident about my ability<div class="autopermalink" data-description="Paragraph"><a href="#concept_conditionals-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_conditionals_opt_c"/>
+                <li data-component="answer" id="__concept_conditionals_opt_d">
+                  <div class="para" id="concept_conditionals-2-4-1-1">I am confident in my ability to use this in simple programs<div class="autopermalink" data-description="Paragraph"><a href="#concept_conditionals-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_conditionals_opt_d"/>
+                <li data-component="answer" id="__concept_conditionals_opt_e">
+                  <div class="para" id="concept_conditionals-2-5-1-1">I am confident in my ability to use this in complex programs<div class="autopermalink" data-description="Paragraph"><a href="#concept_conditionals-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_conditionals_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.3.3 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="concept_functions-1-1">Functions (e.g., def function_name():)<div class="autopermalink" data-description="Paragraph"><a href="#concept_functions-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__concept_functions" data-multipleanswers="false">
+                <li data-component="answer" id="__concept_functions_opt_a">
+                  <div class="para" id="concept_functions-2-1-1-1">I am unfamiliar with this concept<div class="autopermalink" data-description="Paragraph"><a href="#concept_functions-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_functions_opt_a"/>
+                <li data-component="answer" id="__concept_functions_opt_b">
+                  <div class="para" id="concept_functions-2-2-1-1">I know what it means, but have not used it in a program<div class="autopermalink" data-description="Paragraph"><a href="#concept_functions-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_functions_opt_b"/>
+                <li data-component="answer" id="__concept_functions_opt_c">
+                  <div class="para" id="concept_functions-2-3-1-1">I have used this concept, but am not confident about my ability<div class="autopermalink" data-description="Paragraph"><a href="#concept_functions-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_functions_opt_c"/>
+                <li data-component="answer" id="__concept_functions_opt_d">
+                  <div class="para" id="concept_functions-2-4-1-1">I am confident in my ability to use this in simple programs<div class="autopermalink" data-description="Paragraph"><a href="#concept_functions-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_functions_opt_d"/>
+                <li data-component="answer" id="__concept_functions_opt_e">
+                  <div class="para" id="concept_functions-2-5-1-1">I am confident in my ability to use this in complex programs<div class="autopermalink" data-description="Paragraph"><a href="#concept_functions-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_functions_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.3.4 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="concept_lists-1-1">Lists/Arrays (e.g., my_list = [1, 2, 3])<div class="autopermalink" data-description="Paragraph"><a href="#concept_lists-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__concept_lists" data-multipleanswers="false">
+                <li data-component="answer" id="__concept_lists_opt_a">
+                  <div class="para" id="concept_lists-2-1-1-1">I am unfamiliar with this concept<div class="autopermalink" data-description="Paragraph"><a href="#concept_lists-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_lists_opt_a"/>
+                <li data-component="answer" id="__concept_lists_opt_b">
+                  <div class="para" id="concept_lists-2-2-1-1">I know what it means, but have not used it in a program<div class="autopermalink" data-description="Paragraph"><a href="#concept_lists-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_lists_opt_b"/>
+                <li data-component="answer" id="__concept_lists_opt_c">
+                  <div class="para" id="concept_lists-2-3-1-1">I have used this concept, but am not confident about my ability<div class="autopermalink" data-description="Paragraph"><a href="#concept_lists-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_lists_opt_c"/>
+                <li data-component="answer" id="__concept_lists_opt_d">
+                  <div class="para" id="concept_lists-2-4-1-1">I am confident in my ability to use this in simple programs<div class="autopermalink" data-description="Paragraph"><a href="#concept_lists-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_lists_opt_d"/>
+                <li data-component="answer" id="__concept_lists_opt_e">
+                  <div class="para" id="concept_lists-2-5-1-1">I am confident in my ability to use this in complex programs<div class="autopermalink" data-description="Paragraph"><a href="#concept_lists-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__concept_lists_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.4.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="experience_duration-1-1">How long have you been learning programming (including school classes)?<div class="autopermalink" data-description="Paragraph"><a href="#experience_duration-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__experience_duration" data-multipleanswers="false">
+                <li data-component="answer" id="__experience_duration_opt_a">
+                  <div class="para" id="experience_duration-2-1-1-1">Less than 6 months<div class="autopermalink" data-description="Paragraph"><a href="#experience_duration-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__experience_duration_opt_a"/>
+                <li data-component="answer" id="__experience_duration_opt_b">
+                  <div class="para" id="experience_duration-2-2-1-1">6 months to 1 year<div class="autopermalink" data-description="Paragraph"><a href="#experience_duration-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__experience_duration_opt_b"/>
+                <li data-component="answer" id="__experience_duration_opt_c">
+                  <div class="para" id="experience_duration-2-3-1-1">1 to 2 years<div class="autopermalink" data-description="Paragraph"><a href="#experience_duration-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__experience_duration_opt_c"/>
+                <li data-component="answer" id="__experience_duration_opt_d">
+                  <div class="para" id="experience_duration-2-4-1-1">More than 2 years<div class="autopermalink" data-description="Paragraph"><a href="#experience_duration-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__experience_duration_opt_d"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.4.2 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="language_familiarity-1-1">Which programming language(s) have you learned? (Check all that apply)<div class="autopermalink" data-description="Paragraph"><a href="#language_familiarity-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__language_familiarity" data-multipleanswers="true">
+                <li data-component="answer" id="__language_familiarity_opt_a">
+                  <div class="para" id="language_familiarity-2-1-1-1">Python<div class="autopermalink" data-description="Paragraph"><a href="#language_familiarity-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__language_familiarity_opt_a"/>
+                <li data-component="answer" id="__language_familiarity_opt_b">
+                  <div class="para" id="language_familiarity-2-2-1-1">Java<div class="autopermalink" data-description="Paragraph"><a href="#language_familiarity-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__language_familiarity_opt_b"/>
+                <li data-component="answer" id="__language_familiarity_opt_c">
+                  <div class="para" id="language_familiarity-2-3-1-1">C/C++<div class="autopermalink" data-description="Paragraph"><a href="#language_familiarity-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__language_familiarity_opt_c"/>
+                <li data-component="answer" id="__language_familiarity_opt_d">
+                  <div class="para" id="language_familiarity-2-4-1-1">JavaScript<div class="autopermalink" data-description="Paragraph"><a href="#language_familiarity-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__language_familiarity_opt_d"/>
+                <li data-component="answer" id="__language_familiarity_opt_e">
+                  <div class="para" id="language_familiarity-2-5-1-1">Block-based (Scratch, Blockly)<div class="autopermalink" data-description="Paragraph"><a href="#language_familiarity-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__language_familiarity_opt_e"/>
+                <li data-component="answer" id="__language_familiarity_opt_f">
+                  <div class="para" id="language_familiarity-2-6-1-1">Other<div class="autopermalink" data-description="Paragraph"><a href="#language_familiarity-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__language_familiarity_opt_f"/>
+                <li data-component="answer" id="__language_familiarity_opt_g">
+                  <div class="para" id="language_familiarity-2-7-1-1">None yet<div class="autopermalink" data-description="Paragraph"><a href="#language_familiarity-2-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__language_familiarity_opt_g"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.4.3 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone shortanswer_section">
+              <div data-component="shortanswer" data-question_label="" class="journal" data-mathjax="" id="__language_familiarity_other">
+                <div class="para" id="language_familiarity_other-1-1">If you selected "Other", please specify:<div class="autopermalink" data-description="Paragraph"><a href="#language_familiarity_other-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 2.4.4 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement"><div class="para" id="parsons_experience-1-1">Have you worked with Parsons Problems before?<div class="autopermalink" data-description="Paragraph"><a href="#parsons_experience-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div> <div class="para" id="parsons_experience-1-2"><em class="emphasis">(Parsons Problems: rearranging code lines to form correct programs)</em><div class="autopermalink" data-description="Paragraph"><a href="#parsons_experience-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__parsons_experience" data-multipleanswers="false">
+                <li data-component="answer" id="__parsons_experience_opt_a">
+                  <div class="para" id="parsons_experience-2-1-1-1">Yes, many times<div class="autopermalink" data-description="Paragraph"><a href="#parsons_experience-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__parsons_experience_opt_a"/>
+                <li data-component="answer" id="__parsons_experience_opt_b">
+                  <div class="para" id="parsons_experience-2-2-1-1">Yes, a few times<div class="autopermalink" data-description="Paragraph"><a href="#parsons_experience-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__parsons_experience_opt_b"/>
+                <li data-component="answer" id="__parsons_experience_opt_c">
+                  <div class="para" id="parsons_experience-2-3-1-1">No, this is my first time<div class="autopermalink" data-description="Paragraph"><a href="#parsons_experience-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__parsons_experience_opt_c"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+    </subchapter>
+    <subchapter>
+      <id>sec-parsons-intro</id>
+      <title>Introduction to Parsons Problems</title>
+      <number>3</number>
+      <division>section</division>
+      <question>
+        <label>Question 3.1.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone parsons_section" style="max-width: none;">
+              <div data-component="parsons" class="parsons" id="__parsons_practice_1">
+                <div class="parsons_question parsons-text">
+                  <div class="para" id="parsons_practice_1-1-1">Arrange the following code blocks to create a function called <code class="code-inline tex2jax_ignore">greet</code> that takes a name as a parameter and prints "Hello, [name]!"<div class="autopermalink" data-description="Paragraph"><a href="#parsons_practice_1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </div>
+                <pre class="parsonsblocks" data-question_label="" style="visibility: hidden;" data-language="python" data-noindent="false">def greet(name):
+---
+    message = "Hello, " + name + "!"
+---
+    print(message)</pre>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 3.2.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone parsons_section" style="max-width: none;">
+              <div data-component="parsons" class="parsons" id="__parsons_practice_2">
+                <div class="parsons_question parsons-text">
+                  <div class="para" id="parsons_practice_2-1-1">Arrange the code blocks to create a function called <code class="code-inline tex2jax_ignore">check_positive</code> that takes a number as a parameter and returns <code class="code-inline tex2jax_ignore">True</code> if the number is positive, and <code class="code-inline tex2jax_ignore">False</code> otherwise.<div class="autopermalink" data-description="Paragraph"><a href="#parsons_practice_2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </div>
+                <pre class="parsonsblocks" data-question_label="" style="visibility: hidden;" data-language="python" data-noindent="false">def check_positive(num):
+---
+    if num &gt; 0:
+---
+        return True
+---
+    else:
+---
+        return False</pre>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 3.3.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone parsons_section" style="max-width: none;">
+              <div data-component="parsons" class="parsons" id="__parsons_practice_3">
+                <div class="parsons_question parsons-text">
+                  <div class="para" id="parsons_practice_3-1-1">Arrange the code blocks to create a function called <code class="code-inline tex2jax_ignore">is_even</code> that takes a number and returns True if it’s even, False if it’s odd.<div class="autopermalink" data-description="Paragraph"><a href="#parsons_practice_3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </div>
+                <pre class="parsonsblocks" data-question_label="" style="visibility: hidden;" data-language="python" data-noindent="false">def is_even(num):
+---
+    if num % 2 == 0:
+---
+    if num % 2 = 0: #paired
+---
+        return True
+---
+    else:
+---
+        return False
+---
+        return true #paired</pre>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 3.4.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="ready_check-1-1">Do you feel ready to proceed to the actual Parsons Problems test?<div class="autopermalink" data-description="Paragraph"><a href="#ready_check-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__ready_check" data-multipleanswers="false">
+                <li data-component="answer" id="__ready_check_opt_a" data-correct="">
+                  <div class="para" id="ready_check-2-1-1-1">Yes, I’m ready to start the test<div class="autopermalink" data-description="Paragraph"><a href="#ready_check-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__ready_check_opt_a"/>
+                <li data-component="answer" id="__ready_check_opt_b">
+                  <div class="para" id="ready_check-2-2-1-1">I need more practice (you can review the problems above)<div class="autopermalink" data-description="Paragraph"><a href="#ready_check-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__ready_check_opt_b"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+    </subchapter>
+    <subchapter>
+      <id>sec-parsons-test</id>
+      <title>Parsons Problems Test</title>
+      <number>4</number>
+      <division>section</division>
+      <question>
+        <label>Question 4.1.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone parsons_section" style="max-width: none;">
+              <div data-component="parsons" class="parsons" id="__parsons_test_1">
+                <div class="parsons_question parsons-text"><div class="para" id="parsons_test_1-1-1">Arrange the code blocks to create a function called <code class="code-inline tex2jax_ignore">sum_positive</code> that takes a list of numbers and returns the sum of only the positive numbers (numbers greater than 0).<div class="autopermalink" data-description="Paragraph"><a href="#parsons_test_1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div> <div class="para" id="parsons_test_1-1-2">Example: <code class="code-inline tex2jax_ignore">sum_positive([5, -2, 3, -1, 8])</code> should return <code class="code-inline tex2jax_ignore">16</code><div class="autopermalink" data-description="Paragraph"><a href="#parsons_test_1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></div>
+                <pre class="parsonsblocks" data-question_label="" style="visibility: hidden;" data-language="python" data-noindent="false">def sum_positive(numbers):
+---
+    total = 0
+---
+    for num in numbers:
+---
+        if num &gt; 0:
+---
+        if num &gt;= 0: #paired
+---
+            total = total + num
+---
+            total = num #paired
+---
+    return total</pre>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.1.2 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="test_1_outcome-1-1">Did you solve this problem?<div class="autopermalink" data-description="Paragraph"><a href="#test_1_outcome-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__test_1_outcome" data-multipleanswers="false">
+                <li data-component="answer" id="__test_1_outcome_opt_a">
+                  <div class="para" id="test_1_outcome-2-1-1-1">Yes, I solved it correctly<div class="autopermalink" data-description="Paragraph"><a href="#test_1_outcome-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_1_outcome_opt_a"/>
+                <li data-component="answer" id="__test_1_outcome_opt_b">
+                  <div class="para" id="test_1_outcome-2-2-1-1">I tried but could not solve it<div class="autopermalink" data-description="Paragraph"><a href="#test_1_outcome-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_1_outcome_opt_b"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.1.3 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="test_1_difficulty-1-1">How difficult was this problem?<div class="autopermalink" data-description="Paragraph"><a href="#test_1_difficulty-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__test_1_difficulty" data-multipleanswers="false">
+                <li data-component="answer" id="__test_1_difficulty_opt_a">
+                  <div class="para" id="test_1_difficulty-2-1-1-1">Easy - solved quickly<div class="autopermalink" data-description="Paragraph"><a href="#test_1_difficulty-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_1_difficulty_opt_a"/>
+                <li data-component="answer" id="__test_1_difficulty_opt_b">
+                  <div class="para" id="test_1_difficulty-2-2-1-1">Moderate - took some thinking<div class="autopermalink" data-description="Paragraph"><a href="#test_1_difficulty-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_1_difficulty_opt_b"/>
+                <li data-component="answer" id="__test_1_difficulty_opt_c">
+                  <div class="para" id="test_1_difficulty-2-3-1-1">Hard - struggled significantly<div class="autopermalink" data-description="Paragraph"><a href="#test_1_difficulty-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_1_difficulty_opt_c"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.2.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone parsons_section" style="max-width: none;">
+              <div data-component="parsons" class="parsons" id="__parsons_test_2">
+                <div class="parsons_question parsons-text"><div class="para" id="parsons_test_2-1-1">Arrange the code blocks to create a function called <code class="code-inline tex2jax_ignore">find_max</code> that takes a list of numbers and returns the largest number.<div class="autopermalink" data-description="Paragraph"><a href="#parsons_test_2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div> <div class="para" id="parsons_test_2-1-2">Example: <code class="code-inline tex2jax_ignore">find_max([3, 7, 2, 9, 1])</code> should return <code class="code-inline tex2jax_ignore">9</code><div class="autopermalink" data-description="Paragraph"><a href="#parsons_test_2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></div>
+                <pre class="parsonsblocks" data-question_label="" style="visibility: hidden;" data-language="python" data-noindent="false">def find_max(numbers):
+---
+    max_val = numbers[0]
+---
+    max_val = 0 #paired
+---
+    for num in numbers:
+---
+        if num &gt; max_val:
+---
+        if num &lt; max_val: #paired
+---
+            max_val = num
+---
+    return max_val</pre>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.2.2 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="test_2_outcome-1-1">Did you solve this problem?<div class="autopermalink" data-description="Paragraph"><a href="#test_2_outcome-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__test_2_outcome" data-multipleanswers="false">
+                <li data-component="answer" id="__test_2_outcome_opt_a">
+                  <div class="para" id="test_2_outcome-2-1-1-1">Yes, I solved it correctly<div class="autopermalink" data-description="Paragraph"><a href="#test_2_outcome-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_2_outcome_opt_a"/>
+                <li data-component="answer" id="__test_2_outcome_opt_b">
+                  <div class="para" id="test_2_outcome-2-2-1-1">I tried but could not solve it<div class="autopermalink" data-description="Paragraph"><a href="#test_2_outcome-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_2_outcome_opt_b"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.2.3 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="test_2_difficulty-1-1">How difficult was this problem?<div class="autopermalink" data-description="Paragraph"><a href="#test_2_difficulty-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__test_2_difficulty" data-multipleanswers="false">
+                <li data-component="answer" id="__test_2_difficulty_opt_a">
+                  <div class="para" id="test_2_difficulty-2-1-1-1">Easy - solved quickly<div class="autopermalink" data-description="Paragraph"><a href="#test_2_difficulty-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_2_difficulty_opt_a"/>
+                <li data-component="answer" id="__test_2_difficulty_opt_b">
+                  <div class="para" id="test_2_difficulty-2-2-1-1">Moderate - took some thinking<div class="autopermalink" data-description="Paragraph"><a href="#test_2_difficulty-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_2_difficulty_opt_b"/>
+                <li data-component="answer" id="__test_2_difficulty_opt_c">
+                  <div class="para" id="test_2_difficulty-2-3-1-1">Hard - struggled significantly<div class="autopermalink" data-description="Paragraph"><a href="#test_2_difficulty-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_2_difficulty_opt_c"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.3.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone parsons_section" style="max-width: none;">
+              <div data-component="parsons" class="parsons" id="__parsons_test_3">
+                <div class="parsons_question parsons-text"><div class="para" id="parsons_test_3-1-1">Arrange the code blocks to create a function called <code class="code-inline tex2jax_ignore">count_matches</code> that takes a list of numbers and a target value, and returns how many times the target appears in the list.<div class="autopermalink" data-description="Paragraph"><a href="#parsons_test_3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div> <div class="para" id="parsons_test_3-1-2">Example: <code class="code-inline tex2jax_ignore">count_matches([5, 3, 5, 7, 5], 5)</code> should return <code class="code-inline tex2jax_ignore">3</code><div class="autopermalink" data-description="Paragraph"><a href="#parsons_test_3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></div>
+                <pre class="parsonsblocks" data-question_label="" style="visibility: hidden;" data-language="python" data-noindent="false">def count_matches(numbers, target):
+---
+    count = 0
+---
+    for num in numbers:
+---
+        if num == target:
+---
+        if num != target: #paired
+---
+            count = count + 1
+---
+            count = count + num #paired
+---
+    return count</pre>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.3.2 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="test_3_outcome-1-1">Did you solve this problem?<div class="autopermalink" data-description="Paragraph"><a href="#test_3_outcome-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__test_3_outcome" data-multipleanswers="false">
+                <li data-component="answer" id="__test_3_outcome_opt_a">
+                  <div class="para" id="test_3_outcome-2-1-1-1">Yes, I solved it correctly<div class="autopermalink" data-description="Paragraph"><a href="#test_3_outcome-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_3_outcome_opt_a"/>
+                <li data-component="answer" id="__test_3_outcome_opt_b">
+                  <div class="para" id="test_3_outcome-2-2-1-1">I tried but could not solve it<div class="autopermalink" data-description="Paragraph"><a href="#test_3_outcome-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_3_outcome_opt_b"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.3.3 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="test_3_difficulty-1-1">How difficult was this problem?<div class="autopermalink" data-description="Paragraph"><a href="#test_3_difficulty-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__test_3_difficulty" data-multipleanswers="false">
+                <li data-component="answer" id="__test_3_difficulty_opt_a">
+                  <div class="para" id="test_3_difficulty-2-1-1-1">Easy - solved quickly<div class="autopermalink" data-description="Paragraph"><a href="#test_3_difficulty-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_3_difficulty_opt_a"/>
+                <li data-component="answer" id="__test_3_difficulty_opt_b">
+                  <div class="para" id="test_3_difficulty-2-2-1-1">Moderate - took some thinking<div class="autopermalink" data-description="Paragraph"><a href="#test_3_difficulty-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_3_difficulty_opt_b"/>
+                <li data-component="answer" id="__test_3_difficulty_opt_c">
+                  <div class="para" id="test_3_difficulty-2-3-1-1">Hard - struggled significantly<div class="autopermalink" data-description="Paragraph"><a href="#test_3_difficulty-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_3_difficulty_opt_c"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.4.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone parsons_section" style="max-width: none;">
+              <div data-component="parsons" class="parsons" id="__parsons_test_4">
+                <div class="parsons_question parsons-text"><div class="para" id="parsons_test_4-1-1">Arrange the code blocks to create a function called <code class="code-inline tex2jax_ignore">find_first</code> that takes a list of numbers and a target value, and returns <code class="code-inline tex2jax_ignore">True</code> if the target is found in the list, or <code class="code-inline tex2jax_ignore">False</code> if it is not found.<div class="autopermalink" data-description="Paragraph"><a href="#parsons_test_4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div> <div class="para" id="parsons_test_4-1-2">Example: <code class="code-inline tex2jax_ignore">find_first([2, 5, 8, 5], 5)</code> returns <code class="code-inline tex2jax_ignore">True</code><div class="autopermalink" data-description="Paragraph"><a href="#parsons_test_4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></div>
+                <pre class="parsonsblocks" data-question_label="" style="visibility: hidden;" data-language="python" data-noindent="false">def find_first(numbers, target):
+---
+    for num in numbers:
+---
+        if num == target:
+---
+        if num != target: #paired
+---
+            return True
+---
+            return False #paired
+---
+    return False</pre>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.4.2 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="test_4_outcome-1-1">Did you solve this problem?<div class="autopermalink" data-description="Paragraph"><a href="#test_4_outcome-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__test_4_outcome" data-multipleanswers="false">
+                <li data-component="answer" id="__test_4_outcome_opt_a">
+                  <div class="para" id="test_4_outcome-2-1-1-1">Yes, I solved it correctly<div class="autopermalink" data-description="Paragraph"><a href="#test_4_outcome-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_4_outcome_opt_a"/>
+                <li data-component="answer" id="__test_4_outcome_opt_b">
+                  <div class="para" id="test_4_outcome-2-2-1-1">I tried but could not solve it<div class="autopermalink" data-description="Paragraph"><a href="#test_4_outcome-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_4_outcome_opt_b"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 4.4.3 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="test_4_difficulty-1-1">How difficult was this problem?<div class="autopermalink" data-description="Paragraph"><a href="#test_4_difficulty-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__test_4_difficulty" data-multipleanswers="false">
+                <li data-component="answer" id="__test_4_difficulty_opt_a">
+                  <div class="para" id="test_4_difficulty-2-1-1-1">Easy - solved quickly<div class="autopermalink" data-description="Paragraph"><a href="#test_4_difficulty-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_4_difficulty_opt_a"/>
+                <li data-component="answer" id="__test_4_difficulty_opt_b">
+                  <div class="para" id="test_4_difficulty-2-2-1-1">Moderate - took some thinking<div class="autopermalink" data-description="Paragraph"><a href="#test_4_difficulty-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_4_difficulty_opt_b"/>
+                <li data-component="answer" id="__test_4_difficulty_opt_c">
+                  <div class="para" id="test_4_difficulty-2-3-1-1">Hard - struggled significantly<div class="autopermalink" data-description="Paragraph"><a href="#test_4_difficulty-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__test_4_difficulty_opt_c"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+    </subchapter>
+    <subchapter>
+      <id>sec-feedback</id>
+      <title>Post-Study Survey</title>
+      <number>5</number>
+      <division>section</division>
+      <question>
+        <label>Question 5.1.1 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="feedback_overall_difficulty-1-1">Overall, how difficult were the Parsons Problems?<div class="autopermalink" data-description="Paragraph"><a href="#feedback_overall_difficulty-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__feedback_overall_difficulty" data-multipleanswers="false">
+                <li data-component="answer" id="__feedback_overall_difficulty_opt_a">
+                  <div class="para" id="feedback_overall_difficulty-2-1-1-1">Very easy<div class="autopermalink" data-description="Paragraph"><a href="#feedback_overall_difficulty-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_overall_difficulty_opt_a"/>
+                <li data-component="answer" id="__feedback_overall_difficulty_opt_b">
+                  <div class="para" id="feedback_overall_difficulty-2-2-1-1">Easy<div class="autopermalink" data-description="Paragraph"><a href="#feedback_overall_difficulty-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_overall_difficulty_opt_b"/>
+                <li data-component="answer" id="__feedback_overall_difficulty_opt_c">
+                  <div class="para" id="feedback_overall_difficulty-2-3-1-1">Moderate<div class="autopermalink" data-description="Paragraph"><a href="#feedback_overall_difficulty-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_overall_difficulty_opt_c"/>
+                <li data-component="answer" id="__feedback_overall_difficulty_opt_d">
+                  <div class="para" id="feedback_overall_difficulty-2-4-1-1">Difficult<div class="autopermalink" data-description="Paragraph"><a href="#feedback_overall_difficulty-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_overall_difficulty_opt_d"/>
+                <li data-component="answer" id="__feedback_overall_difficulty_opt_e">
+                  <div class="para" id="feedback_overall_difficulty-2-5-1-1">Very difficult<div class="autopermalink" data-description="Paragraph"><a href="#feedback_overall_difficulty-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_overall_difficulty_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 5.1.2 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="feedback_understanding-1-1">Did the Parsons Problems help you understand program structure?<div class="autopermalink" data-description="Paragraph"><a href="#feedback_understanding-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__feedback_understanding" data-multipleanswers="false">
+                <li data-component="answer" id="__feedback_understanding_opt_a">
+                  <div class="para" id="feedback_understanding-2-1-1-1">Yes, definitely<div class="autopermalink" data-description="Paragraph"><a href="#feedback_understanding-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_understanding_opt_a"/>
+                <li data-component="answer" id="__feedback_understanding_opt_b">
+                  <div class="para" id="feedback_understanding-2-2-1-1">Yes, somewhat<div class="autopermalink" data-description="Paragraph"><a href="#feedback_understanding-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_understanding_opt_b"/>
+                <li data-component="answer" id="__feedback_understanding_opt_c">
+                  <div class="para" id="feedback_understanding-2-3-1-1">Not sure<div class="autopermalink" data-description="Paragraph"><a href="#feedback_understanding-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_understanding_opt_c"/>
+                <li data-component="answer" id="__feedback_understanding_opt_d">
+                  <div class="para" id="feedback_understanding-2-4-1-1">No, not really<div class="autopermalink" data-description="Paragraph"><a href="#feedback_understanding-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_understanding_opt_d"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 5.1.3 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="feedback_more_practice-1-1">Would you like to practice more Parsons Problems?<div class="autopermalink" data-description="Paragraph"><a href="#feedback_more_practice-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__feedback_more_practice" data-multipleanswers="false">
+                <li data-component="answer" id="__feedback_more_practice_opt_a">
+                  <div class="para" id="feedback_more_practice-2-1-1-1">Yes, definitely<div class="autopermalink" data-description="Paragraph"><a href="#feedback_more_practice-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_more_practice_opt_a"/>
+                <li data-component="answer" id="__feedback_more_practice_opt_b">
+                  <div class="para" id="feedback_more_practice-2-2-1-1">Yes, maybe<div class="autopermalink" data-description="Paragraph"><a href="#feedback_more_practice-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_more_practice_opt_b"/>
+                <li data-component="answer" id="__feedback_more_practice_opt_c">
+                  <div class="para" id="feedback_more_practice-2-3-1-1">Not sure<div class="autopermalink" data-description="Paragraph"><a href="#feedback_more_practice-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_more_practice_opt_c"/>
+                <li data-component="answer" id="__feedback_more_practice_opt_d">
+                  <div class="para" id="feedback_more_practice-2-4-1-1">No<div class="autopermalink" data-description="Paragraph"><a href="#feedback_more_practice-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_more_practice_opt_d"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 5.1.4 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone multiplechoice_section">
+              <div class="exercise-statement">
+                <div class="para" id="feedback_challenging-1-1">What did you find most challenging about the Parsons Problems? (Check all that apply)<div class="autopermalink" data-description="Paragraph"><a href="#feedback_challenging-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+              <ul data-component="multiplechoice" class="exercise-interactives" id="__feedback_challenging" data-multipleanswers="true">
+                <li data-component="answer" id="__feedback_challenging_opt_a">
+                  <div class="para" id="feedback_challenging-2-1-1-1">Understanding the logic<div class="autopermalink" data-description="Paragraph"><a href="#feedback_challenging-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_challenging_opt_a"/>
+                <li data-component="answer" id="__feedback_challenging_opt_b">
+                  <div class="para" id="feedback_challenging-2-2-1-1">Getting the correct order of lines<div class="autopermalink" data-description="Paragraph"><a href="#feedback_challenging-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_challenging_opt_b"/>
+                <li data-component="answer" id="__feedback_challenging_opt_c">
+                  <div class="para" id="feedback_challenging-2-3-1-1">Setting correct indentation<div class="autopermalink" data-description="Paragraph"><a href="#feedback_challenging-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_challenging_opt_c"/>
+                <li data-component="answer" id="__feedback_challenging_opt_d">
+                  <div class="para" id="feedback_challenging-2-4-1-1">Understanding what the code should do<div class="autopermalink" data-description="Paragraph"><a href="#feedback_challenging-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_challenging_opt_d"/>
+                <li data-component="answer" id="__feedback_challenging_opt_e">
+                  <div class="para" id="feedback_challenging-2-5-1-1">Nothing was particularly challenging<div class="autopermalink" data-description="Paragraph"><a href="#feedback_challenging-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+                </li>
+                <li data-component="feedback" id="__feedback_challenging_opt_e"/>
+              </ul>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+      <question>
+        <label>Question 5.1.5 </label>
+        <htmlsrc>
+          <div class="ptx-runestone-container">
+            <div class="runestone shortanswer_section">
+              <div data-component="shortanswer" data-question_label="" class="journal" data-mathjax="" id="__feedback_comments">
+                <div class="para" id="feedback_comments-1-1">Any other comments or suggestions? (Optional)<div class="autopermalink" data-description="Paragraph"><a href="#feedback_comments-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+              </div>
+            </div>
+          </div>
+        </htmlsrc>
+      </question>
+    </subchapter>
+  </chapter>
+</manifest>
