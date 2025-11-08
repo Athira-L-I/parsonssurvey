@@ -32,7 +32,7 @@
       to create a function that prints a greeting message.
     </p>
 
-    <exercise label="parsons_practice_1" runestone="parsons">
+    <exercise label="parsons_practice_1" language="python"  indentation="hide">
       <statement>
         <p>
           Arrange the following code blocks to create a function called <c>greet</c> that 
@@ -73,7 +73,7 @@
       Now let's try a slightly more complex problem that involves a conditional statement.
     </p>
 
-    <exercise label="parsons_practice_2" runestone="parsons">
+    <exercise label="parsons_practice_2" language="python"  indentation="hide">
       <statement>
         <p>
           Arrange the code blocks to create a function called <c>check_positive</c> that 
@@ -100,6 +100,67 @@
       </blocks>
     </exercise>
   </subsection>
+  
+  <!-- Add Practice Problem 3 with distractors: -->
+  <subsection xml:id="subsec-practice-3">
+    <title>Practice Problem 3: With Paired Distractors</title>
+    
+    <p>
+      This problem includes <term>paired distractors</term>. For some steps,
+      you will be presented with a choice between a correct code block and
+      an incorrect one. Your job is to identify and use only the correct
+      block from each pair. This is what you'll see in the test problems.
+    </p>
+
+    <exercise label="parsons_practice_3" language="python"  indentation="hide">
+      <statement>
+        <p>
+          Arrange the code blocks to create a function called <c>is_even</c> that 
+          takes a number and returns True if it's even, False if it's odd.
+        </p>
+      </statement>
+      <blocks>
+        <block order="1">
+          <cline>def is_even(num):</cline>
+        </block>
+        
+        <block order="2">
+          <choice correct="yes">
+            <cline>    if num % 2 == 0:</cline>
+          </choice>
+          <choice>
+            <cline>    if num % 2 = 0:</cline>
+          </choice>
+        </block>
+        
+        <block order="3">
+          <cline>        return True</cline>
+        </block>
+        
+        <block order="4">
+          <cline>    else:</cline>
+        </block>
+        
+        <block order="5">
+          <choice correct="yes">
+            <cline>        return False</cline>
+          </choice>
+          <choice>
+            <cline>        return true</cline>
+          </choice>
+        </block>
+      </blocks>
+    </exercise>
+    
+    <p>
+      <alert>Notice:</alert> You had to choose the correct line from pairs of
+      correct and incorrect code. In the test, you'll also need to identify
+      which lines are correct and which are distractors.
+    </p>
+  </subsection>
+
+
+
 
   <subsection xml:id="subsec-ready-check">
     <title>Are You Ready?</title>
@@ -116,11 +177,11 @@
       </ul>
     </p>
 
-    <exercise label="ready_check" runestone="multiplechoice">
+    <exercise label="ready_check">
       <statement>
         <p>Do you feel ready to proceed to the actual Parsons Problems test?</p>
       </statement>
-      <choices>
+      <choices multiple-correct="no">
         <choice correct="yes">
           <statement><p>Yes, I'm ready to start the test</p></statement>
         </choice>

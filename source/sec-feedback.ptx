@@ -12,13 +12,13 @@
   </introduction>
 
   <subsection xml:id="subsec-feedback-questions">
-    <title>Feedback Questions</title>
+    <title>Feedback Questions</title>    
 
-    <exercise label="feedback_difficulty" runestone="multiplechoice">
+    <exercise label="feedback_overall_difficulty">
       <statement>
-        <p><alert>1.</alert> Overall, how difficult were the Parsons Problems?</p>
+        <p> Overall, how difficult were the Parsons Problems?</p>
       </statement>
-      <choices>
+      <choices multiple-correct="no">
         <choice>
           <statement><p>Very easy</p></statement>
         </choice>
@@ -37,11 +37,11 @@
       </choices>
     </exercise>
 
-    <exercise label="feedback_understanding" runestone="multiplechoice">
+    <exercise label="feedback_understanding">
       <statement>
-        <p><alert>2.</alert> Did the Parsons Problems help you understand program structure?</p>
+        <p> Did the Parsons Problems help you understand program structure?</p>
       </statement>
-      <choices>
+      <choices multiple-correct="no">
         <choice>
           <statement><p>Yes, definitely</p></statement>
         </choice>
@@ -57,11 +57,11 @@
       </choices>
     </exercise>
 
-    <exercise label="feedback_more_practice" runestone="multiplechoice">
+    <exercise label="feedback_more_practice">
       <statement>
-        <p><alert>3.</alert> Would you like to practice more Parsons Problems?</p>
+        <p> Would you like to practice more Parsons Problems?</p>
       </statement>
-      <choices>
+      <choices multiple-correct="no">
         <choice>
           <statement><p>Yes, definitely</p></statement>
         </choice>
@@ -77,11 +77,11 @@
       </choices>
     </exercise>
 
-    <exercise label="feedback_challenging" runestone="multiplechoice">
+    <exercise label="feedback_challenging">
       <statement>
-        <p><alert>4.</alert> What did you find most challenging about the Parsons Problems?</p>
+        <p> What did you find most challenging about the Parsons Problems? (Check all that apply)</p>
       </statement>
-      <choices>
+      <choices multiple-correct="yes">
         <choice>
           <statement><p>Understanding the logic</p></statement>
         </choice>
@@ -100,10 +100,11 @@
       </choices>
     </exercise>
 
-    <exercise label="feedback_comments" runestone="shortanswer">
+    <exercise label="feedback_comments">
       <statement>
-        <p><alert>5.</alert> Any other comments or suggestions? (Optional)</p>
+        <p> Any other comments or suggestions? (Optional)</p>
       </statement>
+      <response/>
     </exercise>
 
     <p>

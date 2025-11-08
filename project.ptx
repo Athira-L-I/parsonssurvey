@@ -20,6 +20,7 @@
       <publication>publication/publication.ptx</publication>
       <output-dir>output/print</output-dir>
     </target>
+    
   </targets>
   <executables>
     <latex>latex</latex>

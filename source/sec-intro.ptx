@@ -2,12 +2,13 @@
 
 <section xml:id="sec-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Student Quick Guide</title>
-  
+  <!--
   <introduction>
     <p>
       <alert>Keep This Page Handy!</alert>
     </p>
   </introduction>
+  -->
 
   <subsection xml:id="subsec-what-are-parsons">
     <title>What are Parsons Problems?</title>
@@ -35,18 +36,20 @@
 
     <p><term>3. Set Indentation</term></p>
     <p>
-      Some lines need to be indented. Use arrows to indent or unindent lines.
+      Some lines need to be indented. Use arrows to indent or unindent lines. Getting indentation right is important in Python!
     </p>
 
     <p><term>4. Check Your Solution</term></p>
     <p>
-      Click Check button to see if your solution is correct. You will get
-      feedback.
+      Click Check button to see if your solution is correct. Lines that are 
+      incorrect will be highlighted in red. Lines that are correct will be 
+      highlighted in green.
     </p>
 
     <p><term>5. Try Again if Wrong</term></p>
     <p>
-      Read the feedback, make changes, and check again. Keep trying!
+      Look at which lines are red, think about what needs to change, and try 
+      again. Keep trying until all lines are green!
     </p>
   </subsection>
 
@@ -58,25 +61,26 @@
       No help from friends, internet, or books. Do your best on your own.
     </p>
 
-    <p><term>Complete All Three Problems</term></p>
+    <p><term>Complete All Four Problems</term></p>
     <p>
-      Try your best on each problem. If you cannot solve it, mark Cannot solve
-      and move on.
+      Try your best on each problem. If you cannot solve it, do your best and move on.
     </p>
 
     <p><term>Take Your Time</term></p>
     <p>
-      Think carefully. Each problem has a 10-minute time limit.
+      Think carefully. The total session should take about 
+      40-50 minutes.
     </p>
 
     <p><term>Do Problems in Order</term></p>
     <p>
-      Start with Problem 1, then 2, then 3. Do not skip ahead.
+      Start with Problem 1, then 2, then 3, then 4. Do not skip ahead.
     </p>
 
     <p><term>Need Help?</term></p>
     <p>
-      Raise your hand if you have questions about the interface. The
+      Raise your hand if you have questions about the interface or if something 
+      isn't working. The
       coordinator can help with technical issues but cannot help solve the
       problems.
     </p>

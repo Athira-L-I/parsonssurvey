@@ -8,13 +8,18 @@
   
   <!-- Common settings -->
   <common>
-    <tableofcontents level="2"/>
+    <tableofcontents level="0"/>
   </common>
 
+  <!-- Numbering settings -->
+  <numbering>
+    <blocks level="2"/>
+  </numbering>
+
   <!-- HTML/Runestone-specific settings -->
-  <html>
-    <!-- Platform specification -->
-    <platform host="runestone"/>
+  <html short-answer-responses="always">
+    <!-- Platform specification 
+    <platform host="runestone"/> -->
     
     <!-- Navigation configuration for linear progression -->
     <navigation logic="linear">
@@ -30,6 +35,8 @@
 
     <!-- Base URL (update with your actual Runestone server URL) -->
     <baseurl href="https://runestone.academy/"/>
+
+    <knowl exercise-inline="no"/>
 
   </html>
 

@@ -8,202 +8,363 @@
       <alert>Test Section - Please Read Carefully</alert>
     </p>
     <p>
-      You will now complete three Parsons Problems. Please remember:
+      You will now complete four Parsons Problems. Please remember:
     </p>
     <p>
       <ul>
         <li>Work independently - no help from others or external resources</li>
-        <li>Complete all three problems in order</li>
+        <li>Complete all four problems in order</li>
         <li>Take your time and think carefully</li>
         <li>Each problem has a suggested 10-minute time limit</li>
         <li>If you cannot solve a problem, do your best and move on</li>
+        <li>It's okay if you can't solve some problems - that helps our research!</li>
       </ul>
     </p>
+    
     <p>
       <alert>Good luck!</alert>
     </p>
   </introduction>
 
   <subsection xml:id="subsec-test-problem-1">
-    <title>Test Problem 1</title>
+    <title>Problem 1: Calculate Sum of Positive Numbers</title>
     
-    <exercise label="parsons_test_1" runestone="parsons">
+    <exercise label="parsons_test_1" language="python" indentation="hide">
       <statement>
         <p>
-          Arrange the code blocks to create a function called <c>sum_list</c> that 
-          takes a list of numbers as a parameter and returns the sum of all numbers in the list.
+          Arrange the code blocks to create a function called <c>sum_positive</c> that 
+          takes a list of numbers and returns the sum of only the positive numbers 
+          (numbers greater than 0).
         </p>
         <p>
-          Example: <c>sum_list([1, 2, 3, 4])</c> should return <c>10</c>
+          Example: <c>sum_positive([5, -2, 3, -1, 8])</c> should return <c>16</c>
         </p>
       </statement>
       <blocks>
         <block order="1">
-          <cline>def sum_list(numbers):</cline>
+          <cline>def sum_positive(numbers):</cline>
         </block>
+        
         <block order="2">
           <cline>    total = 0</cline>
         </block>
+        
         <block order="3">
           <cline>    for num in numbers:</cline>
         </block>
+        
         <block order="4">
-          <cline>        total = total + num</cline>
+          <choice correct="yes">
+            <cline>        if num &gt; 0:</cline>
+          </choice>
+          <choice>
+            <cline>        if num &gt;= 0:</cline>
+          </choice>
         </block>
+        
         <block order="5">
+          <choice correct="yes">
+            <cline>            total = total + num</cline>
+          </choice>
+          <choice>
+            <cline>            total = num</cline>
+          </choice>
+        </block>
+        
+        <block order="6">
           <cline>    return total</cline>
         </block>
       </blocks>
     </exercise>
 
-    <exercise label="test_1_confidence" runestone="multiplechoice">
+    <exercise label="test_1_outcome">
       <statement>
-        <p>How confident are you in your solution for Problem 1?</p>
+        <p>Did you solve this problem?</p>
       </statement>
-      <choices>
+      <choices multiple-correct="no">
         <choice>
-          <statement><p>Very confident</p></statement>
+          <statement><p>Yes, I solved it correctly</p></statement>
         </choice>
         <choice>
-          <statement><p>Somewhat confident</p></statement>
-        </choice>
-        <choice>
-          <statement><p>Not very confident</p></statement>
-        </choice>
-        <choice>
-          <statement><p>I could not solve this problem</p></statement>
+          <statement><p>I tried but could not solve it</p></statement>
         </choice>
       </choices>
     </exercise>
+
+    <exercise label="test_1_difficulty">
+      <statement>
+        <p>How difficult was this problem?</p>
+      </statement>
+      <choices multiple-correct="no">
+        <choice>
+          <statement><p>Easy - solved quickly</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Moderate - took some thinking</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Hard - struggled significantly</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
   </subsection>
 
+  <!-- PROBLEM 2: Find Maximum -->
   <subsection xml:id="subsec-test-problem-2">
-    <title>Test Problem 2</title>
+    <title>Problem 2: Find Maximum</title>
     
-    <exercise label="parsons_test_2" runestone="parsons">
-      <statement>
-        <p>
-          Arrange the code blocks to create a function called <c>count_vowels</c> that 
-          takes a string as a parameter and returns the number of vowels (a, e, i, o, u) 
-          in the string. Ignore case (treat 'A' and 'a' as the same).
-        </p>
-        <p>
-          Example: <c>count_vowels("Hello")</c> should return <c>2</c>
-        </p>
-      </statement>
-      <blocks>
-        <block order="1">
-          <cline>def count_vowels(text):</cline>
-        </block>
-        <block order="2">
-          <cline>    vowels = "aeiouAEIOU"</cline>
-        </block>
-        <block order="3">
-          <cline>    count = 0</cline>
-        </block>
-        <block order="4">
-          <cline>    for char in text:</cline>
-        </block>
-        <block order="5">
-          <cline>        if char in vowels:</cline>
-        </block>
-        <block order="6">
-          <cline>            count = count + 1</cline>
-        </block>
-        <block order="7">
-          <cline>    return count</cline>
-        </block>
-      </blocks>
-    </exercise>
-
-    <exercise label="test_2_confidence" runestone="multiplechoice">
-      <statement>
-        <p>How confident are you in your solution for Problem 2?</p>
-      </statement>
-      <choices>
-        <choice>
-          <statement><p>Very confident</p></statement>
-        </choice>
-        <choice>
-          <statement><p>Somewhat confident</p></statement>
-        </choice>
-        <choice>
-          <statement><p>Not very confident</p></statement>
-        </choice>
-        <choice>
-          <statement><p>I could not solve this problem</p></statement>
-        </choice>
-      </choices>
-    </exercise>
-  </subsection>
-
-  <subsection xml:id="subsec-test-problem-3">
-    <title>Test Problem 3</title>
-    
-    <exercise label="parsons_test_3" runestone="parsons">
+    <exercise label="parsons_test_2" language="python" indentation="hide">
       <statement>
         <p>
           Arrange the code blocks to create a function called <c>find_max</c> that 
-          takes a list of numbers as a parameter and returns the largest number in the list.
-          You may assume the list is not empty.
+          takes a list of numbers and returns the largest number.
         </p>
         <p>
-          Example: <c>find_max([3, 7, 2, 9, 4])</c> should return <c>9</c>
+          Example: <c>find_max([3, 7, 2, 9, 1])</c> should return <c>9</c>
         </p>
       </statement>
       <blocks>
         <block order="1">
           <cline>def find_max(numbers):</cline>
         </block>
+        
         <block order="2">
-          <cline>    max_num = numbers[0]</cline>
+          <choice correct="yes">
+            <cline>    max_val = numbers[0]</cline>
+          </choice>
+          <choice>
+            <cline>    max_val = 0</cline>
+          </choice>
         </block>
+        
         <block order="3">
           <cline>    for num in numbers:</cline>
         </block>
+        
         <block order="4">
-          <cline>        if num > max_num:</cline>
+          <choice correct="yes">
+            <cline>        if num &gt; max_val:</cline>
+          </choice>
+          <choice>
+            <cline>        if num &lt; max_val:</cline>
+          </choice>
         </block>
+        
         <block order="5">
-          <cline>            max_num = num</cline>
+          <cline>            max_val = num</cline>
         </block>
+        
         <block order="6">
-          <cline>    return max_num</cline>
+          <cline>    return max_val</cline>
         </block>
       </blocks>
     </exercise>
 
-    <exercise label="test_3_confidence" runestone="multiplechoice">
+    <exercise label="test_2_outcome">
       <statement>
-        <p>How confident are you in your solution for Problem 3?</p>
+        <p>Did you solve this problem?</p>
       </statement>
-      <choices>
+      <choices multiple-correct="no">
         <choice>
-          <statement><p>Very confident</p></statement>
+          <statement><p>Yes, I solved it correctly</p></statement>
         </choice>
         <choice>
-          <statement><p>Somewhat confident</p></statement>
+          <statement><p>I tried but could not solve it</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="test_2_difficulty">
+      <statement>
+        <p>How difficult was this problem?</p>
+      </statement>
+      <choices multiple-correct="no">
+        <choice>
+          <statement><p>Easy - solved quickly</p></statement>
         </choice>
         <choice>
-          <statement><p>Not very confident</p></statement>
+          <statement><p>Moderate - took some thinking</p></statement>
         </choice>
         <choice>
-          <statement><p>I could not solve this problem</p></statement>
+          <statement><p>Hard - struggled significantly</p></statement>
         </choice>
       </choices>
     </exercise>
   </subsection>
 
-  <subsection xml:id="subsec-test-complete">
-    <title>Test Complete</title>
+  <!-- PROBLEM 3: Count Matches -->
+  <subsection xml:id="subsec-test-problem-3">
+    <title>Problem 3: Count Matches</title>
     
-    <p>
-      <alert>Congratulations!</alert> You have completed all three Parsons Problems.
-    </p>
-    <p>
-      Please proceed to the feedback survey to share your experience.
-    </p>
+    <exercise label="parsons_test_3" language="python" indentation="hide">
+      <statement>
+        <p>
+          Arrange the code blocks to create a function called <c>count_matches</c> that
+          takes a list of numbers and a target value, and returns how many times the
+          target appears in the list.
+        </p>
+        <p>
+          Example: <c>count_matches([5, 3, 5, 7, 5], 5)</c> should return <c>3</c>
+        </p>
+      </statement>
+      <blocks>
+        <block order="1">
+          <cline>def count_matches(numbers, target):</cline>
+        </block>
+
+        <block order="2">
+          <cline>    count = 0</cline>
+        </block>
+
+        <block order="3">
+          <cline>    for num in numbers:</cline>
+        </block>
+
+        <block order="4">
+          <choice correct="yes">
+            <cline>        if num == target:</cline>
+          </choice>
+          <choice>
+            <cline>        if num != target:</cline>
+          </choice>
+        </block>
+
+        <block order="5">
+          <choice correct="yes">
+            <cline>            count = count + 1</cline>
+          </choice>
+          <choice>
+            <cline>            count = count + num</cline>
+          </choice>
+        </block>
+
+        <block order="6">
+          <cline>    return count</cline>
+        </block>
+      </blocks>
+    </exercise>
+
+    <exercise label="test_3_outcome">
+      <statement>
+        <p>Did you solve this problem?</p>
+      </statement>
+      <choices multiple-correct="no">
+        <choice>
+          <statement><p>Yes, I solved it correctly</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I tried but could not solve it</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="test_3_difficulty">
+      <statement>
+        <p>How difficult was this problem?</p>
+      </statement>
+      <choices multiple-correct="no">
+        <choice>
+          <statement><p>Easy - solved quickly</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Moderate - took some thinking</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Hard - struggled significantly</p></statement>
+        </choice>
+      </choices>
+    </exercise>
   </subsection>
+
+  <!-- PROBLEM 4: Find First Match -->
+  <subsection xml:id="subsec-test-problem-4">
+    <title>Problem 4: Find First Match</title>
+
+    <exercise label="parsons_test_4" language="python" indentation="hide">
+      <statement>
+        <p>
+          Arrange the code blocks to create a function called <c>find_first</c> that 
+          takes a list of numbers and a target value, and returns <c>True</c> if the 
+          target is found in the list, or <c>False</c> if it is not found.
+        </p>
+        <p>
+          Example: <c>find_first([2, 5, 8, 5], 5)</c> returns <c>True</c>
+        </p>
+      </statement>
+      <blocks>
+        <block order="1">
+          <cline>def find_first(numbers, target):</cline>
+        </block>
+        
+        <block order="2">
+          <cline>    for num in numbers:</cline>
+        </block>
+        
+        <block order="3">
+          <choice correct="yes">
+            <cline>        if num == target:</cline>
+          </choice>
+          <choice>
+            <cline>        if num != target:</cline>
+          </choice>
+        </block>
+        
+        <block order="4">
+          <choice correct="yes">
+            <cline>            return True</cline>
+          </choice>
+          <choice>
+            <cline>            return False</cline>
+          </choice>
+        </block>
+        
+        <block order="5">
+          <cline>    return False</cline>
+        </block>
+      </blocks>
+    </exercise>
+
+    <exercise label="test_4_outcome">
+      <statement>
+        <p>Did you solve this problem?</p>
+      </statement>
+      <choices multiple-correct="no">
+        <choice>
+          <statement><p>Yes, I solved it correctly</p></statement>
+        </choice>
+        <choice>
+          <statement><p>I tried but could not solve it</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="test_4_difficulty">
+      <statement>
+        <p>How difficult was this problem?</p>
+      </statement>
+      <choices multiple-correct="no">
+        <choice>
+          <statement><p>Easy - solved quickly</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Moderate - took some thinking</p></statement>
+        </choice>
+        <choice>
+          <statement><p>Hard - struggled significantly</p></statement>
+        </choice>
+      </choices>
+    </exercise>
+  </subsection>
+
+  <conclusion>
+    <p>
+      <alert>Congratulations!</alert> You have completed all four Parsons Problems.
+    </p>
+    <p>
+      Please proceed to the final feedback survey to share your experience.
+    </p>
+  </conclusion>
 
 </section>
 
