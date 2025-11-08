@@ -7,6 +7,11 @@
     </macros>
     <latex-image-preamble>
     </latex-image-preamble>
+
+    <blurb shelf="Python">
+        This interactive survey is designed to study how students approach and solve Parsons Problems, a type of programming exercise where code blocks must be arranged in the correct order. The study consists of a background questionnaire, practice problems, test problems, and a feedback survey.
+    </blurb>
+
     <rename element="inlineexercise">Question</rename>
   </docinfo>
 
