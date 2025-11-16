@@ -3,13 +3,17 @@
 <section xml:id="sec-questionnaire" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Pre-Study Questionnaire</title>
   
-  <introduction>
-    <p><em>Programming Struggle Detection Study</em></p>
+  <introduction>    
     <p>
       <alert>Instructions:</alert> Please answer all questions honestly. This information
       helps us understand your programming background. All responses are
       confidential.
     </p>
+    <note>
+        <p>
+            These are survey questions, not graded. Your response is automatically saved when you select an option— <alert>ignore the <term>"Check Me"</term> button.</alert>
+        </p>
+    </note>
     <p><alert>Estimated Time:</alert> 8 minutes</p>
   </introduction>
 
@@ -76,8 +80,7 @@
     <exercise label="efficacy_1">
       <statement>
         <p>
-           Generally I have felt secure about attempting computer programming
-          problems.
+           I feel confident attempting programming problems.
         </p>
       </statement>
       <choices multiple-correct="no">
@@ -101,7 +104,7 @@
 
     <exercise label="efficacy_2">
       <statement>
-        <p> I am sure I could do advanced work in computer science.</p>
+        <p> I can do advanced work in computer science.</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -124,7 +127,7 @@
 
     <exercise label="efficacy_3">
       <statement>
-        <p> I am sure that I can learn programming.</p>
+        <p> I can learn programming.</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -147,7 +150,7 @@
 
     <exercise label="efficacy_4">
       <statement>
-        <p> I think I could handle more difficult programming problems.</p>
+        <p> I can handle difficult programming problems.</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -170,7 +173,7 @@
 
     <exercise label="efficacy_5">
       <statement>
-        <p> I can get good grades in computer science.</p>
+        <p> I can get good marks in computer science (CS/IP).</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -193,7 +196,7 @@
 
     <exercise label="efficacy_6">
       <statement>
-        <p> I have a lot of self-confidence when it comes to programming.</p>
+        <p> I am confident in my programming ability.</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -253,7 +256,7 @@
 
     <exercise label="concept_loops">
       <statement>
-        <p> Loops/Iteration (e.g., for loops, while loops)</p>
+        <p> Loops/Iteration (e.g., <c>for</c> loops, <c>while</c> loops)</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -276,7 +279,7 @@
 
     <exercise label="concept_conditionals">
       <statement>
-        <p> Conditionals/Selection Statements (e.g., if, elif, else)</p>
+        <p> Conditionals/Selection Statements (e.g., <c>if</c>, <c>elif</c>, <c>else</c>)</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -299,7 +302,7 @@
 
     <exercise label="concept_functions">
       <statement>
-        <p> Functions (e.g., def function_name():)</p>
+        <p> Functions (e.g., <c>def function_name():</c>)</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -322,7 +325,7 @@
 
     <exercise label="concept_lists">
       <statement>
-        <p> Lists/Arrays (e.g., my_list = [1, 2, 3])</p>
+        <p> Lists/Arrays (e.g., <c>my_list = [1, 2, 3]</c>)</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -436,9 +439,9 @@
     <exercise label="parsons_experience">
       <statement>
         <p>
-           Have you worked with Parsons Problems before?
+           Have you worked with Parsons Puzzles before?
         </p>
-        <p><em>(Parsons Problems: rearranging code lines to form correct programs)</em></p>
+        <p><em>(Parsons Puzzles: rearranging code lines to form correct programs)</em></p>
       </statement>
       <choices multiple-correct="no">
         <choice>

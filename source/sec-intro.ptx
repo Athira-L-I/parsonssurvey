@@ -11,9 +11,9 @@
   -->
 
   <subsection xml:id="subsec-what-are-parsons">
-    <title>What are Parsons Problems?</title>
+    <title>What are Parsons Puzzles?</title>
     <p>
-      Parsons Problems give you mixed-up lines of code. Your job is to drag
+      Parsons Puzzles give you mixed-up lines of code. Your job is to drag
       them into the correct order and set proper indentation to make a working
       program.
     </p>
@@ -41,7 +41,7 @@
 
     <p><term>4. Check Your Solution</term></p>
     <p>
-      Click Check button to see if your solution is correct. Lines that are 
+      Click <term>Check</term> button to see if your solution is correct. Lines that are 
       incorrect will be highlighted in red. Lines that are correct will be 
       highlighted in green.
     </p>
@@ -61,9 +61,9 @@
       No help from friends, internet, or books. Do your best on your own.
     </p>
 
-    <p><term>Complete All Four Problems</term></p>
+    <p><term>Complete All Four Puzzles</term></p>
     <p>
-      Try your best on each problem. If you cannot solve it, do your best and move on.
+      Try your best on each puzzle. If you cannot solve it, do your best and move on.
     </p>
 
     <p><term>Take Your Time</term></p>
@@ -72,9 +72,9 @@
       40-50 minutes.
     </p>
 
-    <p><term>Do Problems in Order</term></p>
+    <p><term>Do Puzzles in Order</term></p>
     <p>
-      Start with Problem 1, then 2, then 3, then 4. Do not skip ahead.
+      Start with Puzzle 1, then 2, then 3, then 4. Do not skip ahead.
     </p>
 
     <p><term>Need Help?</term></p>
@@ -87,5 +87,56 @@
 
     <p><alert>Good Luck!</alert></p>
   </subsection>
+
+  <subsection xml:id="subsec-consent">
+    <title>Consent to Participate</title>
+
+    <term>
+        You are invited to participate in a research study about how students approach programming.
+    </term>
+    
+    <p>
+        <term>Purpose of the study:</term> This study aims to understand how students solve Parsons Puzzles.
+    </p>
+    <p>
+        <term>What you will do:</term> You will be asked to complete a brief background survey, learn about a type of code puzzle, and then solve a series of code puzzles.
+    </p>
+    <p>
+        <term>Data collected:</term> Your survey answers and your interactions with the puzzles (including your drag-and-drop actions) will be anonymously recorded.
+    </p>
+    <p>
+        <term>Voluntary Participation:</term> Your participation is completely voluntary. Your decision will not affect your grades or standing in any course.
+    </p>
+    <p>
+        <term>Contact:</term> If you have any questions, please contact <em>Athira L I</em> at <em>athirali.pgtcs@gmail.com.</em>
+    </p>
+
+    <exercise xml:id="consent-form" label="consent_form_agree">
+        <statement>
+            <p>
+                By selecting "Yes" below, you confirm that you have read and understood the information above, and agree to participate in this study.
+            </p>
+        </statement>
+        <choices>
+            <choice correct="yes">
+                <statement><p>Yes, I agree to participate in the survey.</p></statement>
+                <feedback>
+                  <p>
+                    Thank you! Please click the "Next" button to begin.
+                  </p>
+                </feedback>
+            </choice>
+            <choice>
+                <statement><p>No, I do not wish to participate.</p></statement>
+                <feedback>
+                  <p>
+                    Thank you for your time. You may now exit the survey.
+                  </p>
+                </feedback>
+            </choice>
+        </choices>
+    </exercise>
+    
+</subsection>
 
 </section>

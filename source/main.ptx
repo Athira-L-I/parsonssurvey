@@ -17,32 +17,10 @@
   </docinfo>
 
   <article xml:id="parsonssurvey">
-    <title>Parsons Problems Research Study</title>
-    <subtitle>Programming Struggle Detection Survey</subtitle>
+    <title>Parsons Puzzles Survey</title>
+    <subtitle>Help Us Study How Students Solve Code Puzzles</subtitle>
 
-    <!--
-    <frontmatter>
-      <titlepage>
-        <author>
-          <personname>Research Team</personname>
-        </author>
-        <date><today/></date>
-      </titlepage>
-
-      <abstract>
-        <p>
-          This interactive survey is designed to study how students approach and solve 
-          Parsons Problems, a type of programming exercise where code blocks must be 
-          arranged in the correct order. The study consists of a background questionnaire, 
-          practice problems, test problems, and a feedback survey.
-        </p>
-        <p>
-          <alert>Estimated Total Time:</alert> 20-25 minutes
-        </p>
-      </abstract>
-    </frontmatter>
-    -->
-
+    
     <!-- Section 1: Introduction/Student Guide -->
     <xi:include href="sec-intro.ptx"/>
 

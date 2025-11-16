@@ -7,8 +7,14 @@
     <p><em>Quick Feedback - 2 Minutes</em></p>
     <p>
       <alert>Thank you for participating!</alert> Please share your quick thoughts about
-      the Parsons Problems.
+      the Parsons Puzzles.
     </p>
+
+    <note>
+        <p>
+            These are survey questions, not graded. Your response is automatically saved when you select an option— <alert>ignore the <term>"Check Me"</term> button.</alert>
+        </p>
+    </note>
   </introduction>
 
   <subsection xml:id="subsec-feedback-questions">
@@ -16,7 +22,7 @@
 
     <exercise label="feedback_overall_difficulty">
       <statement>
-        <p> Overall, how difficult were the Parsons Problems?</p>
+        <p> Overall, how difficult were the Parsons Puzzles?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -39,7 +45,7 @@
 
     <exercise label="feedback_understanding">
       <statement>
-        <p> Did the Parsons Problems help you understand program structure?</p>
+        <p> Did the Parsons Puzzles help you understand program structure?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -59,7 +65,7 @@
 
     <exercise label="feedback_more_practice">
       <statement>
-        <p> Would you like to practice more Parsons Problems?</p>
+        <p> Would you like to practice more Parsons Puzzles?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -79,7 +85,7 @@
 
     <exercise label="feedback_challenging">
       <statement>
-        <p> What did you find most challenging about the Parsons Problems? (Check all that apply)</p>
+        <p> What did you find most challenging about the Parsons Puzzles? (Check all that apply)</p>
       </statement>
       <choices multiple-correct="yes">
         <choice>

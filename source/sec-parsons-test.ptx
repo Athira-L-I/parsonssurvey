@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-parsons-test" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Parsons Problems Test</title>
+  <title>Parsons Puzzles Test</title>
   
   <introduction>
     <p>
       <alert>Test Section - Please Read Carefully</alert>
     </p>
     <p>
-      You will now complete four Parsons Problems. Please remember:
+      You will now complete four Parsons Puzzles. Please remember:
     </p>
     <p>
       <ul>
         <li>Work independently - no help from others or external resources</li>
-        <li>Complete all four problems in order</li>
+        <li>Complete all four puzzles in order</li>
         <li>Take your time and think carefully</li>
-        <li>Each problem has a suggested 10-minute time limit</li>
-        <li>If you cannot solve a problem, do your best and move on</li>
-        <li>It's okay if you can't solve some problems - that helps our research!</li>
+        <li>Each puzzle has a suggested 10-minute time limit</li>
+        <li>If you cannot solve a puzzle, do your best and move on</li>
+        <li>It's okay if you can't solve some puzzles - that helps our research!</li>
       </ul>
     </p>
+
+    <note>
+        <p>
+            <alert>Use the <term>"Check"</term> button only for the Parsons Puzzles.</alert> For the survey questions below them, your responses are saved automatically when you select them—no need to click any buttons.
+        </p>
+    </note>
     
     <p>
       <alert>Good luck!</alert>
@@ -27,7 +33,7 @@
   </introduction>
 
   <subsection xml:id="subsec-test-problem-1">
-    <title>Problem 1: Calculate Sum of Positive Numbers</title>
+    <title>Puzzle 1: Calculate Sum of Positive Numbers</title>
     
     <exercise label="parsons_test_1" language="python" indentation="hide">
       <statement>
@@ -77,9 +83,11 @@
       </blocks>
     </exercise>
 
+    
+
     <exercise label="test_1_outcome">
       <statement>
-        <p>Did you solve this problem?</p>
+        <p>Did you solve this puzzle?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -93,7 +101,7 @@
 
     <exercise label="test_1_difficulty">
       <statement>
-        <p>How difficult was this problem?</p>
+        <p>How difficult was this puzzle?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -112,7 +120,7 @@
 
   <!-- PROBLEM 2: Find Maximum -->
   <subsection xml:id="subsec-test-problem-2">
-    <title>Problem 2: Find Maximum</title>
+    <title>Puzzle 2: Find Maximum</title>
     
     <exercise label="parsons_test_2" language="python" indentation="hide">
       <statement>
@@ -163,7 +171,7 @@
 
     <exercise label="test_2_outcome">
       <statement>
-        <p>Did you solve this problem?</p>
+        <p>Did you solve this puzzle?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -177,7 +185,7 @@
 
     <exercise label="test_2_difficulty">
       <statement>
-        <p>How difficult was this problem?</p>
+        <p>How difficult was this puzzle?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -195,7 +203,7 @@
 
   <!-- PROBLEM 3: Count Matches -->
   <subsection xml:id="subsec-test-problem-3">
-    <title>Problem 3: Count Matches</title>
+    <title>Puzzle 3: Count Matches</title>
     
     <exercise label="parsons_test_3" language="python" indentation="hide">
       <statement>
@@ -247,7 +255,7 @@
 
     <exercise label="test_3_outcome">
       <statement>
-        <p>Did you solve this problem?</p>
+        <p>Did you solve this puzzle?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -261,7 +269,7 @@
 
     <exercise label="test_3_difficulty">
       <statement>
-        <p>How difficult was this problem?</p>
+        <p>How difficult was this puzzle?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -279,7 +287,7 @@
 
   <!-- PROBLEM 4: Find First Match -->
   <subsection xml:id="subsec-test-problem-4">
-    <title>Problem 4: Find First Match</title>
+    <title>Puzzle 4: Find First Match</title>
 
     <exercise label="parsons_test_4" language="python" indentation="hide">
       <statement>
@@ -327,7 +335,7 @@
 
     <exercise label="test_4_outcome">
       <statement>
-        <p>Did you solve this problem?</p>
+        <p>Did you solve this puzzle?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -341,7 +349,7 @@
 
     <exercise label="test_4_difficulty">
       <statement>
-        <p>How difficult was this problem?</p>
+        <p>How difficult was this puzzle?</p>
       </statement>
       <choices multiple-correct="no">
         <choice>
@@ -359,7 +367,7 @@
 
   <conclusion>
     <p>
-      <alert>Congratulations!</alert> You have completed all four Parsons Problems.
+      <alert>Congratulations!</alert> You have completed all four Parsons Puzzles.
     </p>
     <p>
       Please proceed to the final feedback survey to share your experience.

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-parsons-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Introduction to Parsons Problems</title>
+  <title>Introduction to Parsons Puzzles</title>
   
   <introduction>
     <p>
-      Welcome to the Parsons Problems practice session! In this section, you will get familiar with 
-      how Parsons Problems work before attempting the actual test problems.
+      Welcome to the Parsons Puzzles practice session! In this section, you will get familiar with 
+      how Parsons Puzzles work before attempting the actual test puzzles.
     </p>
     <p>
-      A Parsons Problem presents you with all the lines of code needed to solve a programming task, 
+      A Parsons Puzzle presents you with all the lines of code needed to solve a programming task, 
       but they are mixed up. Your job is to:
     </p>
     <p>
@@ -20,12 +20,12 @@
       </ul>
     </p>
     <p>
-      Let's start with a simple practice problem to get you comfortable with the interface.
+      Let's start with a simple practice puzzle to get you comfortable with the interface.
     </p>
   </introduction>
 
   <subsection xml:id="subsec-practice-1">
-    <title>Practice Problem 1: Simple Function</title>
+    <title>Practice Puzzle 1: Simple Function</title>
     
     <p>
       This is a simple warm-up problem. Try to arrange the code blocks in the correct order
@@ -53,7 +53,7 @@
     </exercise>
 
     <p>
-      <alert>Tips for solving Parsons Problems:</alert>
+      <alert>Tips for solving Parsons Puzzles:</alert>
     </p>
     <p>
       <ul>
@@ -67,7 +67,7 @@
   </subsection>
 
   <subsection xml:id="subsec-practice-2">
-    <title>Practice Problem 2: Conditional Statement</title>
+    <title>Practice Puzzle 2: Conditional Statement</title>
     
     <p>
       Now let's try a slightly more complex problem that involves a conditional statement.
@@ -103,10 +103,10 @@
   
   <!-- Add Practice Problem 3 with distractors: -->
   <subsection xml:id="subsec-practice-3">
-    <title>Practice Problem 3: With Paired Distractors</title>
+    <title>Practice Puzzle 3: With Paired Distractors</title>
     
     <p>
-      This problem includes <term>paired distractors</term>. For some steps,
+      This puzzle includes <term>paired distractors</term>. For some steps,
       you will be presented with a choice between a correct code block and
       an incorrect one. Your job is to identify and use only the correct
       block from each pair. This is what you'll see in the test problems.
@@ -179,14 +179,14 @@
 
     <exercise label="ready_check">
       <statement>
-        <p>Do you feel ready to proceed to the actual Parsons Problems test?</p>
+        <p>Do you feel ready to proceed to the actual Parsons Puzzles test?</p>
       </statement>
       <choices multiple-correct="no">
         <choice correct="yes">
           <statement><p>Yes, I'm ready to start the test</p></statement>
         </choice>
         <choice>
-          <statement><p>I need more practice (you can review the problems above)</p></statement>
+          <statement><p>I need more practice (you can review the puzzles above)</p></statement>
         </choice>
       </choices>
     </exercise>
@@ -195,7 +195,7 @@
       <alert>When you're ready, click the Next button to begin the test section.</alert>
     </p>
     <p>
-      Remember: In the test section, you will have three problems to solve. Take your time, 
+      Remember: In the test section, you will have four puzzles to solve. Take your time, 
       read each problem carefully, and do your best!
     </p>
   </subsection>
