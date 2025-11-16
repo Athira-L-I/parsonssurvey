@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-questionnaire" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Pre-Study Questionnaire</title>
+  <title>(2/5) Pre-Study Questionnaire</title>
   
   <introduction>    
     <p>
@@ -14,7 +14,6 @@
             These are survey questions, not graded. Your response is automatically saved when you select an option— <alert>ignore the <term>"Check Me"</term> button.</alert>
         </p>
     </note>
-    <p><alert>Estimated Time:</alert> 8 minutes</p>
   </introduction>
 
   <subsection xml:id="subsec-basic-info">
